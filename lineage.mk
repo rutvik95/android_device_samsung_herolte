@@ -33,3 +33,7 @@ PRODUCT_MODEL := SM-G930F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+BUILD_FINGERPRINT := samsung/heroltexx/herolte:8.0.0/R16NW/G930FXXU2ERF4:user/release-keys
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRIVATE_BUILD_DESC="heroltexx-user 8.0.0 R16NW G930FXXU2ERF4 release-keys"
